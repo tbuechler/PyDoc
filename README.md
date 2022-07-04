@@ -32,7 +32,7 @@ pydoc_runner(
 * Each `def` and `class` is documented. To put comments to these definition use outside comments after the `def` or `class` header. 
 * Inside a `def` or `class` body code is only document if an inside comment was placed before. If so, the code until an "empty" line is documented.
 * All comments are parsed to Markdown. Remember that if you place two `inside` comments one below the other. The text is than parsed to an one-liner. If you want to create a newline with `inside` comments just add an empty line between both.
-
+* You can create a documentation for your whole project / source directory by calling the pydoc_runner. It will create for each level an index.html listing all the subfolder and parsed python files. Just try it out and you will se what I mean :).
 
 ## :cry:	Known issues
 The thing is that this script was only meant to be a side project to create a basic documentation for my other private stuff. Since I thought this could be helpful for others, I decided to make the code public anyways. Even though the script itself has some hardcoded and ugly parts. 
