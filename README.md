@@ -12,6 +12,7 @@ from PyDoc import pydoc
 pydoc(r"demo/single_file/example.py", r"demo/single_file/example.html")
 ```
 ![](assets/demo.png)
+See: [directories.](https://htmlpreview.github.io/?https://github.com/tbuechler/PyDoc/blob/main/demo/doc/index.html)
 
 **Directory processing**
 ```python
@@ -23,6 +24,8 @@ pydoc_runner(
     root_doc=r"demo/doc"
 )
 ```
+See: [single file.](https://htmlpreview.github.io/?https://github.com/tbuechler/PyDoc/blob/main/demo/single_file/example.html)
+ 
 
 ## :confused: What's happening?
 * Splits a python file into documentation and code segments.
